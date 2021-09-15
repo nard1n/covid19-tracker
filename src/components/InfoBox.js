@@ -1,11 +1,12 @@
-import { Card, CardContent, Typography } from "@material-ui/core"
+import { Card, CardContent, Typography } from "@material-ui/core";
+import "./InfoBox.css";
 
 function InfoBox({ title, cases, total }) {
     return (
-        <Card>
+        <Card className="infoBox">
             <CardContent>
 
-                <Typography classeName='infoBox__title'color="textSecondary">
+                <Typography classeName='infoBox__title' color="textSecondary">
                     {title}
                 </Typography>
 
